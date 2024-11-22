@@ -1,0 +1,248 @@
+/* Estilos Básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #49458d;
+    margin-bottom: 20px;
+}
+
+/* Seção de Introdução */
+.intro {
+    margin-bottom: 40px;
+}
+
+.imagem-inicial {
+    width: 50%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* Seção de Serviços */
+.servicos {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.servicos h2 {
+    color: #49458d;
+}
+
+.servicos-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servico h3 {
+    color: #49458d;
+}
+
+.servico p {
+    color: #666;
+}
+
+.servico:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Seção de Depoimentos */
+.depoimentos {
+    background-color: #e9e9e9;
+    padding: 40px 0;
+}
+
+.depoimento {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.depoimento cite {
+    display: block;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+/* Seção de Contato */
+.contato {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label, form input, form textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form input, form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #49458d;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5a57b8;
+}
+
+/* Seção de Redes Sociais */
+.redes-sociais {
+    padding: 20px 0;
+}
+
+.icones-redes-sociais a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #49458d;
+    font-weight: bold;
+}
+
+.icones-redes-sociais a:hover {
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* Modo Noturno */
+.night-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.night-mode header {
+    background-color: #222;
+}
+
+.night-mode nav a {
+    color: #e0e0e0;
+}
+
+.night-mode main {
+    color: #e0e0e0;
+}
+
+.night-mode .servicos {
+    background-color: #333;
+}
+
+.night-mode .servico {
+    background-color: #444;
+    color: #e0e0e0;
+}
+
+.night-mode .depoimentos {
+    background-color: #222;
+}
+
+.night-mode footer {
+    background-color: #1d1d1d;
+}
+
+.night-mode footer p {
+    color: #e0e0e0;
+}
+
+.night-mode form input,
+.night-mode form textarea,
+.night-mode button {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+.night-mode form button:hover {
+    background-color: #555;
+}
+
+.night-mode .icones-redes-sociais a {
+    color: #e0e0e0;
+}
+
+.night-mode .icones-redes-sociais a:hover {
+    color: #fff;
+}
+
+/* Seção de Contato (modo noturno) */
+.night-mode .contato {
+    background-color: #222;
+}
+
+.night-mode form input, 
+.night-mode form textarea {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+.night-mode form button {
+    background-color: #49458d;
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+.night-mode form button:hover {
+    background-color: #5a57b8;
+}
